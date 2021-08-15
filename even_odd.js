@@ -3,9 +3,10 @@ let num = '';
 
 function evenOrOdd(num) {
     if (num % 2 == 0) {
-        console.log('even');
+        return "Even";
     } else {
-        console.log('odd');
+        return "Odd";
     }
 }
-evenOrOdd(num);
+total = evenOrOdd(num);
+console.log(total)
