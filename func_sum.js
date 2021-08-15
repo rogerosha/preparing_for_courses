@@ -6,6 +6,7 @@ function sumOfArrs(arr) {
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    console.log(sum);
+    return sum;
 }
-sumOfArrs(arr);
+value = sumOfArrs(arr);
+console.log(value)
