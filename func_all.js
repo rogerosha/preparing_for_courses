@@ -1,8 +1,13 @@
-let arr = [1, 2, 3];
+let arr = [1, 2, 3, 4, 5];
 
-function all(arr, fun) {
-    return fun > 9;
+function greaterThan9(arr) {
+    const result = arr.filter(i => arr[i] > 9);
 };
 
-total = all(arr);
-console.log(arr.every(all))
+function all(arr) {
+    if (result) {
+        return true;
+    };
+};
+
+all([1, 2, 3, 4, 5], greaterThan9)  
