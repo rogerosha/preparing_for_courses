@@ -1,10 +1,5 @@
 function toAlternatingCase(string) {
-    if (string == string.toUpperCase()) {
-        return string.toLowerCase();
-    };
-    if (string == string.toLowerCase()) {
-        return string.toUpperCase();
-    };
+    return string.split('').map(i => i == i.toUpperCase()? i.toLowerCase(): i.toUpperCase()).join('');
 };
 
 result = toAlternatingCase('hey');
