@@ -1,10 +1,6 @@
 function greeting(name) {
-    if (name === 'Johnny') {
-        return 'Hello, my dear';
-    } else {
-        return 'Hello ' + name;
-    };
+    return name === 'Johnny' ? 'Hello, dear' : 'Hello, ' + name;
 };
 
-greet = greeting('Johnny');
+greet = greeting('Your name');
 console.log(greet);
