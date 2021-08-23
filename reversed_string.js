@@ -1,5 +1,5 @@
-let string = 'somebody once told me';
-let array = string.split(' ');
+const string = 'somebody once told me';
+const array = string.split(' ');
 array.reverse();
-let result = array.join(' ');
+result = array.join(' ');
 console.log(result);
